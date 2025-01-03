@@ -1,0 +1,164 @@
+/* Global Styles */
+body {
+    padding: 4rem;
+    padding-top: 2rem;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #af8dbe, #7d7c57,#bc4b74); /* Apply gradient to body */ 
+}
+
+/* Main Container */
+.vh-100 {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    border: 2px;
+    border-radius: 8px;
+    border-color: #141516;
+    background-color: #4b96bc;
+    height: auto; 
+    width: auto; 
+    max-height: 90vh; 
+    max-width: 100vw; 
+  }
+  
+  /* Left Section */
+.Left_section {
+    flex: 0.5; /* Allow the left section to fill available space */
+    padding: 2rem;
+  }
+  
+  /* Right Section */
+.Right_section {
+    flex: 1; /* Allow the right section to fill available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Image Styling */
+.cover {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px ;
+  }
+
+
+
+/* Text Styling */
+.text-black {
+    color: #000;
+}
+
+/* Headings */
+h3 {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* Form Styling */
+form {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    border-radius: 8px;
+    border-color: #6c757d;
+    background-color: #fff;
+    width: 25rem; /* Consistent width */
+    height: 90vh;
+}
+
+/* Form Fields */
+.form-outline {
+    margin-bottom: 1.5rem;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+/* Buttons */
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+    width: 100%; /* Ensure button spans the form width */
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
+
+
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+a.text-muted {
+    color: #6c757d;
+}
+
+a.link-info {
+    color: #17a2b8;
+}
+
+a.link-info:hover {
+    color: #138496;
+}
+
+/* Additional Classes */
+p {
+    margin: 0.5rem 0;
+}
+
+.container-fluid {
+    height: 100%; /* Ensures proper height consistency */
+}
+
+.col-sm-6 {
+    padding: 1rem; /* Adjust spacing */
+}
+/* Footer Styles */
+footer {
+    width: 100dvw;
+    background-color: #242734; /* Light gray background */
+    padding: 20px 0;
+    text-align: center;
+    color: #ccc;
+  }
+  
+.row{
+    display: flex;
+}
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+.Contact{
+    flex: 1 ;
+}
+.Social{
+    flex: 1;
+}
+
+  .social-links li {
+    display: block;
+    margin-right: 10px;
+  }
+  
+  .social-links a {
+    color: #bfcccd;
+    font-size: 20px;
+  }
+  
+  .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+  }
